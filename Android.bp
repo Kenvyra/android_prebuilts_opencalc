@@ -4,5 +4,5 @@ android_app_import {
     apk: "OpenCalc.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
     presigned: true,
-    overrides: ["ExactCalculator"],
+    overrides: ["Calculator", "ExactCalculator"],
 }
